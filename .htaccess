@@ -1,0 +1,18 @@
+RewriteEngine On
+
+
+# ----------------------------------------------------------------------
+# Allow loading of external fonts
+# ----------------------------------------------------------------------
+<FilesMatch "\.(ttf|otf|eot|woff)$">
+    <IfModule mod_headers.c>
+        SetEnvIf Origin "http(s)?://(www\.)?(http://localhost:8080)$" AccessControlAllowOrigin=*
+        Header add Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
+        Header merge Vary Origin
+    </IfModule>
+</FilesMatch>
+
+
+#Izbrisi .php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

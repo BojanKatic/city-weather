@@ -1,0 +1,88 @@
+
+.margin_top10 { margin-top: 10px;}
+.margin_top50 { margin-top: 50px;}
+.margin_btm20 { margin-bottom: 20px;}
+
+.destination_inputs {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+.destination_inputs p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #006bb3;
+}
+.destination_inputs input{
+    background-color: #006bb3;
+    color: #fff;
+    padding: 5px;
+}
+button {
+    margin-top: 2%;
+    background-color: #006bb3;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0b79c2;
+}
+.press_button {
+    text-align:center;
+}
+
+img.sun_reprezentation {
+    height: 100px;
+    margin-left: -15px;
+    margin-top: 150px;
+}
+img.cloud_reprezentation {
+    height: 100px;
+    padding-left: 15px;
+    position: absolute;
+}
+.percent_area {
+    background-color:#ccebff;
+    margin-bottom: 20px;
+}
+.percent_area h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.departure_area {
+    border-right: 2px solid #fff;   
+}
+.reprezent_area {
+    background-image: linear-gradient(#006bb3, #ccebff);
+    height: 480px;
+    border: 1px solid #fff;
+}
+.reprezent_area p{
+    color:#fff;
+}
+.reprezent_area p.reprezent_percent{
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+.reprezent_area p.reprezent_type{
+    font-size: 24px;
+}
+.transparent_img0 {
+    opacity: 0;
+}
+.transparent_img4 {
+    opacity: 0.4;
+}
+.margin_low_cloud {
+    bottom: 10%;
+}
+.margin_medium_cloud {
+    bottom: 25%;
+}
+.margin_high_cloud {
+    bottom: 40%;
+}
+

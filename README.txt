@@ -1,0 +1,2 @@
+This code will show the weather conditions based on the desired city, entered as departure and destination.
+At the same time, search results will be saved to the database so that we can look at the values most searched by users.
